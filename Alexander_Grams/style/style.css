@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f2f4f6;
+	margin: 30px 30px;
+}
+
+.wraper_form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0 40px 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 400px;
+	width: 300px;
+	padding: 40px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: rgb(0 0 0 / 5%) 0 1px 0, rgb(0 0 0 / 5%) 0 2px 6px, rgb(0 0 0 / 5%) 0 10px 20px;
+	font-size: 19px;
+}
+
+.field {
+	display: flex;
+	flex-direction: column;
+}
+
+form input {
+	width: 300px;
+	height: 25px;
+}
+
+button {
+	font-size: 14px;
+	font-weight: bold;
+	color: #7d7e82;
+	background-color: #fff;
+	border: 1px solid #7d7e82;
+	border-radius: 5px;
+	padding: 5px 45px;
+	cursor: pointer;
+	transition: color 0.5s ease;
+}
+
+button:hover {
+	color: black;
+}
+
+#cards{
+	display: grid;
+	grid-template-columns: repeat(4, 300px);
+	grid-auto-rows: 400px;
+	justify-content: space-between;
+	column-gap: 20px;
+	row-gap: 20px;
+}
+
+.card{
+	padding: 30px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: rgb(0 0 0 / 5%) 0 1px 0, rgb(0 0 0 / 5%) 0 2px 6px, rgb(0 0 0 / 5%) 0 10px 20px;
+	transition: box-shadow 0.5s ease;
+}
+
+.card:hover {
+	box-shadow: rgb(0 0 0 / 15%) 0 1px 0, rgb(0 0 0 / 15%) 0 2px 6px, rgb(0 0 0 / 15%) 0 10px 20px;
+}
+
+.name_wraper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.img_elem{
+	width:  200px;
+	height:  150px;
+	background: center / cover;
+}
+
+.close {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightblue;
+	color: black;
+	border-radius: 15px;
+	font-size: 20px;
+	line-height: 25px;
+	outline: 1px solid gray;
+	transition: background-color 0.5s ease;
+}
+
+.close:hover{
+	background-color: lightcoral;
+}
