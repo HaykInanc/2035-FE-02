@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="stylesheet" type= "text/css" href="style/style.css">
+    <title>Employee of the month</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Become employee of the month!</h1>
+        <h2>Propose a candidate</h2>
+        <div class="container">
+            <form action="">
+                <div class="field">
+                    <label for="input_name">Insert candidate's name:</label>
+                    <input type="text" name="name" id="input_name">
+                </div>
+                <div class="field">
+                    <label for="input_lastname">Insert candidate's lastname:</label>
+                    <input type="text" name="lastname" id="input_lastname">
+                </div>
+                <div class="field">
+                    <label for="input_email">Insert candidate's email:</label>
+                    <input type="email" name="email" id="input_email">
+                </div>
+                <div class="field">
+                    <label for="input_foto">Insert candidate's foto:</label>
+                    <input type="url" name="foto" id="input_foto">
+                </div>
+                <button>Send proposal</button>
+            </form>
+            <div><img src="https://piper.old-games.ru/uploads/scans/2021/03/2021-03-23-15-05-45-4888.jpg" alt="Bob"></div>
+        </div>
+        <div><h2 class="sectionTitle">This month no employees...</h2></div>
+
+        <div id="employees"></div>
+    </div>
+    
+    <script type="text/javascript" src="javascript/script.js"></script>
+</body>
+</html>
