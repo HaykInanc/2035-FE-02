@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="field">
+        <label>Name:</label>
+        <input name="name" required value="Петрова" />
+      </div>
+      <div class="field">
+        <label>Last name:</label>
+        <input name="last_name" required value="Александра" />
+      </div>
+      <div class="field">
+        <label>E-mail:</label>
+        <input type="email" name="email" required value="petrovaa@gmail.ru" />
+      </div>
+      <div class="field">
+        <label>Photo:</label>
+        <input
+          name="photo"
+          required
+          value="https://kubnews.ru/upload/iblock/b01/b0111b504fcefdc8bc732dfeeeb25c5b.jpg"
+        />
+      </div>
+      <button>Add employe card.</button>
+    </form>
+    <div id="cards">
+      <div class="card" id="card_vu60b0k3v">
+        <div
+          class="card_image"
+          style="background-image: url('img/photo.jpg')"
+        ></div>
+        <div class="content">
+          <input readonly="true" value="Петрова Александра" /><input
+            readonly="true"
+            value="petrovaa@gmail.ru"
+          />
+        </div>
+        <div class="close">✖</div>
+      </div>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
