@@ -3,7 +3,7 @@
 const formElem = document.forms[0];
 let persons = [];
 
-formElem.addEventListener('submit', event => addPersonCard(event, formElem, persons));
+formElem.addEventListener('submit', event => addPersonCard(event, formElem));
 
 function addPersonCard(event, formElem) {
 
