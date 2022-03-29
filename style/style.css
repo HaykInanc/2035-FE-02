@@ -1,0 +1,35 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.modal-container{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(52,73,94,5);
+}
+.modal{
+	background-color: white;
+	left: 40px;
+	right: 40px;
+	top: 40px;
+	bottom: 40px;
+	position: absolute;
+	box-shadow: 0 0 20px black;
+}
+.close-crose{
+	width: 30px;
+	height: 30px;
+	background-color: #e74c3c;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+}
